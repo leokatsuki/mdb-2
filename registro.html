@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voting.</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <section class="container">
+        <div class="row flex-center">
+            <img src="Movimento_Democrático_Brasileiro_(2017).svg.png" alt="" />
+        </div>
+
+        <div class="row">
+            <div class="grid-4 disappear"></div>
+            <div class="grid-4">
+                <h6 class="text-center">Digite seu CPF para registrar sua presença.</h6>
+
+                <input type="number" class="mt-2" name="user" id="" placeholder="Digite seu CPF" required />
+                <div class="card-danger p-2 my-1">
+                    <h6 class="h7 color-red">Seu CPF não foi encontrado!</h6>
+                </div>
+
+                <button class="btn w-100 mt-2" onclick="exibirModal()">
+                    Registrar presença
+                </button>
+            </div>
+
+            <div class="grid-4 disappear"></div>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="fecharModal()">&times;</span>
+                <div class="flex-column">
+                    <p>A senha para fazer o login é: <span id="senha" class="flex-center mt-2"></span></p>
+                    <div class="flex-center mt-4">
+                        <a href="login.html" class="btn modal-button">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>

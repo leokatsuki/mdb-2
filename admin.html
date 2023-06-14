@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="py-1 px-2">
+    <nav>
+        <div>
+            <a href="index.html"><h4>Voting.</h4></a>
+        </div>
+        <ul class="menu">
+            <li><a href="votacoes.html" class="p-1">Votacoes</a></li>
+            <li><a href="relatorio.html" class="p-1">Relatorios</a></li>
+            <li><a href="admin.html" class="p-1">Admin page</a></li>
+        </ul>
+    </nav>
+    <div class="bx"></div>
+    <div class="flex-start-row">
+        <div class="search">
+            <form class="flex">
+                <input type="text" name="search" id="" placeholder="Buscar..." />
+                <button class="btn-search"></button>
+            </form>
+            
+        </div>
+        <div class="cta-desktop ml-3">
+            <a href="login.html" class="btn">Login</a>
+        </div>
+        <div class="cta-mobile mr-1">
+            <a href="" class="link">Login</a>
+        </div>
+    </div>
+    </header>
+
+    <!-- FORM -->
+    <section class="container">
+        <h3>Adicionar nova votacao</h3>
+        <p class="mt-2">Preencha os campos abaixo para adicionar uma nova votacao</p>
+        <div class="row p-0">
+            <div class="grid-3 p-0">
+                <h6 class="mb-1">Data</h6>
+                <input type="date" name="data" id="">
+            </div>
+            <div class="grid-3 p-0">
+                <h6 class="mb-1">Categoria</h6>
+                <select name="" id="">
+                    <option value="TECNOLOGIA">Tecnologia</option>
+                    <option value="GAMES">Games</option>
+                    <option value="FOTOGRAFIA">Fotografia</option>
+                    <option value="CINEMA">Cinema</option>
+                </select>
+            </div>
+            <div class="grid-6 p-0">
+                <h6 class="mb-1">Título</h6>
+                <input type="text" name="title" id="">
+            </div>
+        </div>
+
+        <div class="row p-0">
+            <div class="grid-8 p-0">
+                <h6 class="mb-1">Resumo do post</h6>
+                <input type="text" name="title" id="">
+            </div>
+            <div class="grid-4 p-0">
+                <h6 class="mb-1">Duração de leitura</h6>
+                <select name="" id="">
+                    <option value="5">5 min.</option>
+                    <option value="7">7 min.</option>
+                    <option value="10">10 min.</option>
+                    <option value="15">15 min.</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row p-0">
+            <div class="grid-12 p-0">
+                <h6 class="mb-1">Descrição</h6>
+                <textarea name="description" id="" rows="8"></textarea>
+            </div>
+        </div>
+
+        <div class="flex-end-row mr-2 mt-2">
+            <button class="btn">Adicionar</button>
+        </div>
+    </section>
+</body>

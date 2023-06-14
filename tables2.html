@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Tables</title>
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+    </nav>
+
+    <div id="content-wrapper">
+        <div id="content">
+            <div class="container-fluid">
+                <h1 class="h3 mb-9 text-gray-800">Lista de usuarios</h1>
+                <div class="card shadow">
+                    <div class="table-responsive p-4">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>CPF</th>
+                                    <th>E-mail</th>
+                                    <th>Telefone</th>
+                                    <th style="width: 10%;">Presenca</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td>
+                                        <div class="d-flex ml-4">
+                                            <button class="btn btn-success btn-sm mr-4" data-toggle="modal" data-target="#dadosModal">
+                                                <strong class=" d-flex justify-content-center align-items-center">presente</strong>
+                                            </button>
+                                            <button class="btn btn-warning btn-sm flex mr-4" data-toggle="modal" data-target="#dadosModal">
+                                                <strong class=" d-flex justify-content-center align-items-center">ausente</strong>
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Brasil</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tiger Nixon</td>
+                                    <td>System Architect</td>
+                                    <td>Edinburgh</td>
+                                    <td>61</td>
+                                    <td class="flex">
+                                        <div class="d-flex justify-content-center">
+                                            <button class="btn btn-primary btn-sm w-50 d-flex justify-content-center" data-toggle="modal" data-target="#dadosModal">
+                                                <img src="svg/check.svg" alt="">
+                                            </button>
+                                        </div>  
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-white border-top">
+        <div class="container">
+            <div class="copyright text-center my-auto ">
+                <span>Copyright &copy; MDB - 2023</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="dadosModal" tabindex="-1" role="dialog" aria-labelledby="dadosModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dadosModalLabel">Deseja confirmar o usuario?</h5>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Nome:</strong> <span id="modalNome"></span></p>
+                    <p><strong>CPF:</strong> <span id="modalCpf"></span></p>
+                    <p><strong>Telefone:</strong> <span id="modalTelefone"></span></p>
+                    <p><strong>Email:</strong> <span id="modalEmail"></span></p>
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+
+    <!-- Page level plugins -->
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/datatables-demo.js"></script>
+
+    <script>
+        function confirmarPresenca() {
+            // Obtendo a linha da tabela que contém o botão de confirmação
+            var row = event.target.parentNode.parentNode;
+
+            // Obtendo os dados da linha
+            var nome = row.cells[0].innerText;
+            var cpf = row.cells[1].innerText;
+            var telefone = row.cells[2].innerText;
+            var email = row.cells[3].innerText;
+
+            // Preenchendo o modal com os dados obtidos
+            document.getElementById("modalNome").textContent = nome;
+            document.getElementById("modalCpf").textContent = cpf;
+            document.getElementById("modalTelefone").textContent = telefone;
+            document.getElementById("modalEmail").textContent = email;
+
+            // Abrindo o modal
+            $('#dadosModal').modal('show');
+        }
+    </script>
+
+</body>
+
+</html>
